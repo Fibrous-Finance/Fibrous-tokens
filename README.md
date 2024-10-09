@@ -72,16 +72,18 @@ If your token's contract address is `0x049d36570d4e46f48e99674bd3fcc84644ddd6b96
 - JSON file:
 
   ```
-  scroll/tokens/0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7.json
+  starknet/tokens/0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7.json
   ```
 
   ```json
   {
-    "address": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"
+    "address": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+    "name" : "Ether",
+    "symbol": "ETH"
   }
   ```
 
 - Image file:
   ```
-  images/scroll/0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7.png
+  images/starknet/0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7.png
   ```
