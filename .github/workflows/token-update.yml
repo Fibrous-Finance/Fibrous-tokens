@@ -35,10 +35,10 @@ jobs:
             # Construct the image URL dynamically
             if [[ $FILE == scroll/tokens/* ]]; then
               IMAGE_URL="https://raw.githubusercontent.com/Fibrous-Finance/Fibrous-tokens/refs/heads/main/images/scroll/${ADDRESS}.png"
-              ENDPOINT="https://test-graph.fibrous.finance/scroll/update_token"
+              ENDPOINT="https://graph.fibrous.finance/scroll/update_token"
             elif [[ $FILE == starknet/tokens/* ]]; then
               IMAGE_URL="https://raw.githubusercontent.com/Fibrous-Finance/Fibrous-tokens/refs/heads/main/images/starknet/${ADDRESS}.png"
-              ENDPOINT="https://test-graph.fibrous.finance/starknet/update_token"
+              ENDPOINT="https://graph.fibrous.finance/starknet/update_token"
             fi
 
             echo "Sending POST request to $ENDPOINT with address: $ADDRESS and imageUrl: $IMAGE_URL"
