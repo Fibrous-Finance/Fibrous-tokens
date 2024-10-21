@@ -8,6 +8,7 @@ jobs:
   update-token:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
+    secrets: inherit
 
     steps:
       - name: Checkout repository
