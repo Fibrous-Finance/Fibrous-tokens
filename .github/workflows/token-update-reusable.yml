@@ -9,8 +9,6 @@ on:
         required: true
         type: number
     secrets:
-      GITHUB_TOKEN:
-        required: true
       UPDATE_SECRET:
         required: true
 
