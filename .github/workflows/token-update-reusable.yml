@@ -1,0 +1,61 @@
+# .github/workflows/token-update-reusable.yml
+name: Token Update Reusable
+
+on:
+  workflow_call:
+    inputs:
+      pull_request_number:
+        description: "The pull request number"
+        required: true
+        type: number
+    secrets:
+      GITHUB_TOKEN:
+        required: true
+      UPDATE_SECRET:
+        required: true
+
+jobs:
+  update-token:
+    runs-on: ubuntu-latest
+    environment: tokensEnv
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install jq for JSON processing
+        run: sudo apt-get install -y jq
+
+      - name: Get changed files from GitHub API
+        id: changes
+        run: |
+          echo "Retrieving list of changed files..."
+          CHANGED_FILES=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/pulls/${{ inputs.pull_request_number }}/files" \
+            | jq -r '.[] | select(.filename | contains("scroll/tokens") or contains("starknet/tokens")) | .filename')
+          echo "Changed files: $CHANGED_FILES"
+          echo "::set-output name=token_files::$CHANGED_FILES"
+
+      - name: Process each token file
+        run: |
+          for FILE in ${{ steps.changes.outputs.token_files }}; do
+            echo "Processing $FILE"
+            ADDRESS=$(jq -r '.address' $FILE)
+
+            # Construct the image URL dynamically
+            if [[ $FILE == scroll/tokens/* ]]; then
+              IMAGE_URL="https://raw.githubusercontent.com/Fibrous-Finance/Fibrous-tokens/refs/heads/main/images/scroll/${ADDRESS}.png"
+              ENDPOINT="https://graph.fibrous.finance/scroll/update_token"
+            elif [[ $FILE == starknet/tokens/* ]]; then
+              IMAGE_URL="https://raw.githubusercontent.com/Fibrous-Finance/Fibrous-tokens/refs/heads/main/images/starknet/${ADDRESS}.png"
+              ENDPOINT="https://graph.fibrous.finance/starknet/update_token"
+            fi
+
+            echo "Sending POST request to $ENDPOINT with address: $ADDRESS and imageUrl: $IMAGE_URL"
+
+            curl -X POST "$ENDPOINT" \
+              -H "Content-Type: application/json" \
+              -H "Authorization: ${{ secrets.UPDATE_SECRET }}" \
+              -d "{\"address\": \"$ADDRESS\", \"imageUrl\": \"$IMAGE_URL\"}"
+
+          done
