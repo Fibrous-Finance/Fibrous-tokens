@@ -61,7 +61,8 @@ async function main() {
   try {
     const prNumber = await getLatestPullRequest(repo, token);
     const changedFiles = await getChangedFiles(prNumber, repo, token);
-
+    console.log('Changed files:', changedFiles);
+    console.log('Processing pull request...', prNumber);
     for (const file of changedFiles) {
       if (file.endsWith('.json')) { // Assuming the new files are JSON files
         const filePath = path.join(process.cwd(), file);
