@@ -22,6 +22,6 @@ jobs:
       run: npm install
 
     - name: Run TypeScript file
-      run: ts-node request.ts
+      run: npx ts-node request.ts
       env:
         API_TOKEN: ${{ secrets.API_TOKEN }}
