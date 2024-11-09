@@ -19,13 +19,11 @@ jobs:
         node-version: '14'
 
     - name: Install dependencies
-    run: |
-        npm install
-        tsc request.ts
-        
-    - name: Run TypeScript files
-    env:
+      run: npm install
+
+    - name: Run TypeScript file
+      run: npx ts-node request.ts
+      env:
         API_TOKEN: ${{ secrets.API_TOKEN }}
-        REPOSITORY: ${{ secrets.REPOSITORY }}
         TOKEN: ${{ secrets.TOKEN }}
-    run: node request.js
+        REPOSITORY: ${{ github.REPOSITORY }}
