@@ -1,0 +1,918 @@
+{
+  "base": [
+    {
+      "amm_name": "wrapper",
+      "display_name": "Wrapper",
+      "family": "wrapper",
+      "logo": "base/amms/wrapper.png"
+    },
+    {
+      "amm_name": "aerodromeV2Stable",
+      "display_name": "Aerodrome Stable",
+      "family": "aerodrome",
+      "logo": "base/amms/aerodrome.png"
+    },
+    {
+      "amm_name": "aerodromeV2Classic",
+      "display_name": "Aerodrome Volatile",
+      "family": "aerodrome",
+      "logo": "base/amms/aerodrome.png"
+    },
+    {
+      "amm_name": "aerodromeV3",
+      "display_name": "Aerodrome Slipstream",
+      "family": "aerodrome",
+      "logo": "base/amms/aerodrome.png"
+    },
+    {
+      "amm_name": "uniswapV2",
+      "display_name": "Uniswap V2",
+      "family": "uniswap",
+      "logo": "base/amms/uniswap.jpeg"
+    },
+    {
+      "amm_name": "uniswapV3",
+      "display_name": "Uniswap V3",
+      "family": "uniswap",
+      "logo": "base/amms/uniswap.jpeg"
+    },
+    {
+      "amm_name": "sushiSwapV2",
+      "display_name": "SushiSwap V2",
+      "family": "sushiswap",
+      "logo": "base/amms/sushiswap.png"
+    },
+    {
+      "amm_name": "sushiSwapV3",
+      "display_name": "SushiSwap V3",
+      "family": "sushiswap",
+      "logo": "base/amms/sushiswap.png"
+    },
+    {
+      "amm_name": "alienbaseV2",
+      "display_name": "AlienBase V2",
+      "family": "alienbase",
+      "logo": "base/amms/alienbase.png"
+    },
+    {
+      "amm_name": "pancakeSwapV3",
+      "display_name": "PancakeSwap V3",
+      "family": "pancakeswap",
+      "logo": "base/amms/pancakeswap.jpeg"
+    },
+    {
+      "amm_name": "baseSwapV2",
+      "display_name": "BaseSwap V2",
+      "family": "baseswap",
+      "logo": "base/amms/baseswap.png"
+    },
+    {
+      "amm_name": "baseSwapV3",
+      "display_name": "BaseSwap V3",
+      "family": "baseswap",
+      "logo": "base/amms/baseswap.png"
+    },
+    {
+      "amm_name": "rocketSwapV2",
+      "display_name": "RocketSwap V2",
+      "family": "rocketswap",
+      "logo": "base/amms/rocketswap.png"
+    },
+    {
+      "amm_name": "smarDexV2",
+      "display_name": "SmarDex V2",
+      "family": "smardex",
+      "logo": "base/amms/smardex.png"
+    },
+    {
+      "amm_name": "izumiV3",
+      "display_name": "IzumiSwap V3",
+      "family": "izumi",
+      "logo": "base/amms/izumi.png"
+    },
+    {
+      "amm_name": "basoFinanceV2",
+      "display_name": "Baso Finance V2",
+      "family": "basofinance",
+      "logo": "base/amms/basofinance.png"
+    },
+    {
+      "amm_name": "basoFinanceStable",
+      "display_name": "Baso Finance Stable",
+      "family": "basofinance",
+      "logo": "base/amms/basofinance.png"
+    },
+    {
+      "amm_name": "bmx",
+      "display_name": "BMX",
+      "family": "bmx",
+      "logo": "base/amms/bmx.png"
+    },
+    {
+      "amm_name": "bvmV2",
+      "display_name": "BVM V2",
+      "family": "bvm",
+      "logo": "base/amms/bvm.png"
+    },
+    {
+      "amm_name": "bvmStable",
+      "display_name": "BVM Stable",
+      "family": "bvm",
+      "logo": "base/amms/bvm.png"
+    },
+    {
+      "amm_name": "dackieSwapV2",
+      "display_name": "DackieSwap",
+      "family": "dackieswap",
+      "logo": "base/amms/dackieswap.jpg"
+    },
+    {
+      "amm_name": "soSwapV2",
+      "display_name": "SoSwap V2",
+      "family": "soswap",
+      "logo": "base/amms/soswap.png"
+    },
+    {
+      "amm_name": "infusionV2Stable",
+      "display_name": "Infusion Stable",
+      "family": "infusion",
+      "logo": "base/amms/infusion.png"
+    },
+    {
+      "amm_name": "infusionV2Classic",
+      "display_name": "Infusion Classic",
+      "family": "infusion",
+      "logo": "base/amms/infusion.png"
+    },
+    {
+      "amm_name": "solidlyV3",
+      "display_name": "Solidly V3",
+      "family": "solidly",
+      "logo": "base/amms/solidly.png"
+    },
+    {
+      "amm_name": "uniswapV4",
+      "display_name": "Uniswap V4",
+      "family": "uniswap",
+      "logo": "base/amms/uniswap.jpeg"
+    },
+    {
+      "amm_name": "curveFiStableNG",
+      "display_name": "Curve Stable NG",
+      "family": "curve",
+      "logo": "base/amms/curve.png"
+    },
+    {
+      "amm_name": "curveFi",
+      "display_name": "Curve fi",
+      "family": "curve",
+      "logo": "base/amms/curve.png"
+    },
+    {
+      "amm_name": "curveFiStableMeta",
+      "display_name": "Curve Stable Meta",
+      "family": "curve",
+      "logo": "base/amms/curve.png"
+    },
+    {
+      "amm_name": "curveFiTriCrypto",
+      "display_name": "Curve TriCrypto NG",
+      "family": "curve",
+      "logo": "base/amms/curve.png"
+    },
+    {
+      "amm_name": "alienbaseV3",
+      "display_name": "AlienBase V3",
+      "family": "alienbase",
+      "logo": "base/amms/alienbase.png"
+    },
+    {
+      "amm_name": "curveFiTwoCrypto",
+      "display_name": "CurveFi Two Crypto",
+      "family": "curve",
+      "logo": "base/amms/curve.png"
+    },
+    {
+      "amm_name": "balancerV2Stable",
+      "display_name": "Balancer V2 Stable",
+      "family": "balancer",
+      "logo": "base/amms/balancer.png"
+    },
+    {
+      "amm_name": "balancerV2Composable",
+      "display_name": "Balancer V2 Composable",
+      "family": "balancer",
+      "logo": "base/amms/balancer.png"
+    },
+    {
+      "amm_name": "balancerV2Weighted",
+      "display_name": "Balancer V2 Weighted",
+      "family": "balancer",
+      "logo": "base/amms/balancer.png"
+    },
+    {
+      "amm_name": "balancerV3Stable",
+      "display_name": "Balancer V3 Stable",
+      "family": "balancer",
+      "logo": "base/amms/balancer.png"
+    },
+    {
+      "amm_name": "balancerV3StableSurge",
+      "display_name": "Balancer V3 Stable Surge",
+      "family": "balancer",
+      "logo": "base/amms/balancer.png"
+    },
+    {
+      "amm_name": "balancerV3Weighted",
+      "display_name": "Balancer V3 Weighted",
+      "family": "balancer",
+      "logo": "base/amms/balancer.png"
+    },
+    {
+      "amm_name": "balancerGyroECLP",
+      "display_name": "Balancer Gyro ECLP",
+      "family": "balancer",
+      "logo": "base/amms/balancer.png"
+    },
+    {
+      "amm_name": "dodoCP",
+      "display_name": "Dodo CP",
+      "family": "dodo",
+      "logo": "base/amms/dodo.png"
+    },
+    {
+      "amm_name": "dodoDPP",
+      "display_name": "Dodo DPP",
+      "family": "dodo",
+      "logo": "base/amms/dodo.png"
+    },
+    {
+      "amm_name": "dodoDSP",
+      "display_name": "Dodo DSP",
+      "family": "dodo",
+      "logo": "base/amms/dodo.png"
+    },
+    {
+      "amm_name": "dodoDVM",
+      "display_name": "Dodo DVM",
+      "family": "dodo",
+      "logo": "base/amms/dodo.png"
+    },
+    {
+      "amm_name": "dackieSwapV3",
+      "display_name": "Dackie Swap V3",
+      "family": "dackieswap",
+      "logo": "base/amms/dackieswap.jpg"
+    },
+    {
+      "amm_name": "equalizerV3",
+      "display_name": "Equalizer Thick V3",
+      "family": "equalizer",
+      "logo": "base/amms/equalizer.png"
+    },
+    {
+      "amm_name": "equalizerV2Classic",
+      "display_name": "Equalizer V2",
+      "family": "equalizer",
+      "logo": "base/amms/equalizer.png"
+    },
+    {
+      "amm_name": "equalizerV2Stable",
+      "display_name": "Equalizer V2 Stable",
+      "family": "equalizer",
+      "logo": "base/amms/equalizer.png"
+    },
+    {
+      "amm_name": "balancerGyroECLPV3",
+      "display_name": "Balancer Gyro ECLP V3",
+      "family": "balancer",
+      "logo": "base/amms/balancer.png"
+    },
+    {
+      "amm_name": "sparkPSM",
+      "display_name": "Spark PSM",
+      "family": "spark",
+      "logo": "base/amms/spark.svg"
+    },
+    {
+      "amm_name": "FluidDex",
+      "display_name": "Fluid Dex",
+      "family": "fluid",
+      "logo": "base/amms/fluid.png"
+    },
+    {
+      "amm_name": "hydrex",
+      "display_name": "Hydrex",
+      "family": "hydrex",
+      "logo": "base/amms/hydrex.jpg"
+    },
+    {
+      "amm_name": "uniswapV4Zora",
+      "display_name": "Uniswap V4 Zora",
+      "family": "uniswap",
+      "logo": "base/amms/uniswap.jpeg"
+    },
+    {
+      "amm_name": "pancakeSwapV2",
+      "display_name": "PancakeSwap V2",
+      "family": "pancakeswap",
+      "logo": "base/amms/pancakeswap.jpeg"
+    },
+    {
+      "amm_name": "PancakeSwapV4",
+      "display_name": "PancakeSwap Infinity",
+      "family": "pancakeswap",
+      "logo": "base/amms/pancakeswap.jpeg"
+    },
+    {
+      "amm_name": "uniswapV4Flaunch",
+      "display_name": "Uniswap V4 Flaunch",
+      "family": "uniswap",
+      "logo": "base/amms/uniswap.jpeg"
+    },
+    {
+      "amm_name": "QuickswapAlgebra",
+      "display_name": "Quickswap Algebra",
+      "family": "quickswap",
+      "logo": "base/amms/quickswap.jpg"
+    },
+    {
+      "amm_name": "balancerV3StableBoosted",
+      "display_name": "Balancer V3 Stable Boosted",
+      "family": "balancer",
+      "logo": "base/amms/balancer.png"
+    },
+    {
+      "amm_name": "tessera",
+      "display_name": "Tessera",
+      "family": "tessera",
+      "logo": "base/amms/tessera.png"
+    },
+    {
+      "amm_name": "uniswapV4Clanker",
+      "display_name": "Uniswap v4 Clanker",
+      "family": "uniswap",
+      "logo": "base/amms/uniswap.jpeg"
+    },
+    {
+      "amm_name": "hanji",
+      "display_name": "Hanji",
+      "family": "hanji",
+      "logo": "base/amms/hanji.jpg"
+    },
+    {
+      "amm_name": "wassabi",
+      "display_name": "Wassabi",
+      "family": "wassabi",
+      "logo": "base/amms/wassabi.jpeg"
+    },
+    {
+      "amm_name": "elfomofi",
+      "display_name": "Elfomofi",
+      "family": "elfomofi",
+      "logo": "base/amms/elfomofi.png"
+    },
+    {
+      "amm_name": "kipseli",
+      "display_name": "Kipseli",
+      "family": "kipseli",
+      "logo": "base/amms/kipseli.png"
+    }
+  ],
+  "hyperevm": [
+    {
+      "amm_name": "wrapper",
+      "display_name": "Wrapper",
+      "family": "wrapper",
+      "logo": "hyperevm/amms/wrapper.png"
+    },
+    {
+      "amm_name": "hyperSwapV2",
+      "display_name": "HyperSwap V2",
+      "family": "hyperswap",
+      "logo": "hyperevm/amms/hyperswap.jpg"
+    },
+    {
+      "amm_name": "hyperSwapV2Stable",
+      "display_name": "HyperSwap V2 Stable",
+      "family": "hyperswap",
+      "logo": "hyperevm/amms/hyperswap.jpg"
+    },
+    {
+      "amm_name": "hyperSwapV3",
+      "display_name": "HyperSwap V3",
+      "family": "hyperswap",
+      "logo": "hyperevm/amms/hyperswap.jpg"
+    },
+    {
+      "amm_name": "kittenSwapV2",
+      "display_name": "KittenSwap V2",
+      "family": "kittenswap",
+      "logo": "hyperevm/amms/kittenswap.jpeg"
+    },
+    {
+      "amm_name": "kittenSwapV2Stable",
+      "display_name": "KittenSwap V2 Stable",
+      "family": "kittenswap",
+      "logo": "hyperevm/amms/kittenswap.jpeg"
+    },
+    {
+      "amm_name": "kittenSwapV3",
+      "display_name": "KittenSwap V3",
+      "family": "kittenswap",
+      "logo": "hyperevm/amms/kittenswap.jpeg"
+    },
+    {
+      "amm_name": "laminarV2",
+      "display_name": "Laminar V2",
+      "family": "laminar",
+      "logo": "hyperevm/amms/laminar.jpg"
+    },
+    {
+      "amm_name": "laminarV3",
+      "display_name": "Laminar V3",
+      "family": "laminar",
+      "logo": "hyperevm/amms/laminar.jpg"
+    },
+    {
+      "amm_name": "ramsesCL",
+      "display_name": "Ramses CL",
+      "family": "ramses",
+      "logo": "hyperevm/amms/ramses.png"
+    },
+    {
+      "amm_name": "projectX",
+      "display_name": "Project X",
+      "family": "projectx",
+      "logo": "hyperevm/amms/projectx.jpg"
+    },
+    {
+      "amm_name": "hybraFinanceV2",
+      "display_name": "Hybra Finance V2",
+      "family": "hybra",
+      "logo": "hyperevm/amms/hybra.png"
+    },
+    {
+      "amm_name": "hybraFinanceV2Stable",
+      "display_name": "Hybra Finance V2 Stable",
+      "family": "hybra",
+      "logo": "hyperevm/amms/hybra.png"
+    },
+    {
+      "amm_name": "hybraFinanceV3",
+      "display_name": "Hybra Finance V3",
+      "family": "hybra",
+      "logo": "hyperevm/amms/hybra.png"
+    },
+    {
+      "amm_name": "hyperCatV3",
+      "display_name": "Hyper Cat V3",
+      "family": "hypercat",
+      "logo": "hyperevm/amms/hypercat.png"
+    },
+    {
+      "amm_name": "gLiquidV3",
+      "display_name": "GLiquid V3",
+      "family": "gliquid",
+      "logo": "hyperevm/amms/gliquid.png"
+    },
+    {
+      "amm_name": "curveFiTwoCrypto",
+      "display_name": "Curve Fi Two Crypto",
+      "family": "curve",
+      "logo": "hyperevm/amms/curve.png"
+    },
+    {
+      "amm_name": "curveFiStable",
+      "display_name": "Curve Fi Stable",
+      "family": "curve",
+      "logo": "hyperevm/amms/curve.png"
+    },
+    {
+      "amm_name": "kittenSwapAlgebraV4",
+      "display_name": "Kittenswap V4",
+      "family": "kittenswap",
+      "logo": "hyperevm/amms/kittenswap.jpeg"
+    },
+    {
+      "amm_name": "balancerGyroECLP",
+      "display_name": "Balancer Gyro ECLP",
+      "family": "balancer",
+      "logo": "hyperevm/amms/balancer.png"
+    },
+    {
+      "amm_name": "balancerReCCLAMM",
+      "display_name": "Balancer ReCCLAMM",
+      "family": "balancer",
+      "logo": "hyperevm/amms/balancer.png"
+    },
+    {
+      "amm_name": "balancerStable",
+      "display_name": "Balancer Stable",
+      "family": "balancer",
+      "logo": "hyperevm/amms/balancer.png"
+    },
+    {
+      "amm_name": "balancerStableSurge",
+      "display_name": "Balancer Stable Surge",
+      "family": "balancer",
+      "logo": "hyperevm/amms/balancer.png"
+    },
+    {
+      "amm_name": "balancerWeighted",
+      "display_name": "Balancer Weighted",
+      "family": "balancer",
+      "logo": "hyperevm/amms/balancer.png"
+    },
+    {
+      "amm_name": "balancerLBPool",
+      "display_name": "Balancer LB Pool",
+      "family": "balancer",
+      "logo": "hyperevm/amms/balancer.png"
+    },
+    {
+      "amm_name": "CurveFiTriCrypto",
+      "display_name": "CurveFi TriCrypto",
+      "family": "curve",
+      "logo": "hyperevm/amms/curve.png"
+    },
+    {
+      "amm_name": "hyperBrickLB",
+      "display_name": "hyperbrick-lb",
+      "family": "hyperbrick",
+      "logo": "hyperevm/amms/hyperbrick.png"
+    },
+    {
+      "amm_name": "Valantis",
+      "display_name": "Valantis",
+      "family": "valantis",
+      "logo": "hyperevm/amms/valantis.jpg"
+    },
+    {
+      "amm_name": "BrownFiV2",
+      "display_name": "BrownFi V2",
+      "family": "brownfi",
+      "logo": "hyperevm/amms/brownfi.avif"
+    },
+    {
+      "amm_name": "UpheavalV3",
+      "display_name": "Upheaval V3",
+      "family": "upheaval",
+      "logo": "hyperevm/amms/upheaval.jpg"
+    },
+    {
+      "amm_name": "UltraSolidV2",
+      "display_name": "UltraSolidV2",
+      "family": "ultrasolid",
+      "logo": "hyperevm/amms/ultrasolid.png"
+    },
+    {
+      "amm_name": "UltraSolidV3",
+      "display_name": "UltraSolid V3",
+      "family": "ultrasolid",
+      "logo": "hyperevm/amms/ultrasolid.png"
+    },
+    {
+      "amm_name": "RingSwap",
+      "display_name": "RingSwap",
+      "family": "ringswap",
+      "logo": "hyperevm/amms/ringswap.png"
+    },
+    {
+      "amm_name": "FunnelV1",
+      "display_name": "Funnel V1",
+      "family": "funnel",
+      "logo": "hyperevm/amms/funnel.png"
+    },
+    {
+      "amm_name": "FunnelV2",
+      "display_name": "Funnel V2",
+      "family": "funnel",
+      "logo": "hyperevm/amms/funnel.png"
+    },
+    {
+      "amm_name": "HybraFinanceV4",
+      "display_name": "Hybra Finance V4",
+      "family": "hybra",
+      "logo": "hyperevm/amms/hybra.png"
+    },
+    {
+      "amm_name": "SpinUp",
+      "display_name": "SpinUp",
+      "family": "spinup",
+      "logo": "hyperevm/amms/spinup.png"
+    },
+    {
+      "amm_name": "SpinUpV2Stable",
+      "display_name": "SpinUp Stable",
+      "family": "spinup",
+      "logo": "hyperevm/amms/spinup.png"
+    },
+    {
+      "amm_name": "RamsesV3",
+      "display_name": "RamsesV3",
+      "family": "ramses",
+      "logo": "hyperevm/amms/ramses.png"
+    },
+    {
+      "amm_name": "nestExchange",
+      "display_name": "Nest Exchange",
+      "family": "nestexchange",
+      "logo": "hyperevm/amms/nestexchange.png"
+    },
+    {
+      "amm_name": "BalancerStableBoosted",
+      "display_name": "Balancer Stable Boosted",
+      "family": "balancer",
+      "logo": "hyperevm/amms/balancer.png"
+    },
+    {
+      "amm_name": "nablaFinance",
+      "display_name": "Nabla",
+      "family": "nabla",
+      "logo": "hyperevm/amms/nabla.jpg"
+    },
+    {
+      "amm_name": "liquidCore",
+      "display_name": "Liquid Core",
+      "family": "liquidcore",
+      "logo": "hyperevm/amms/liquidcore.jpg"
+    }
+  ],
+  "monad": [
+    {
+      "amm_name": "Wrapper",
+      "display_name": "Wrapper",
+      "family": "wrapper",
+      "logo": "monad/amms/wrapper.png"
+    },
+    {
+      "amm_name": "AethonswapV3",
+      "display_name": "Aethonswap V3",
+      "family": "aethonswap",
+      "logo": "monad/amms/aethonswap.jpeg"
+    },
+    {
+      "amm_name": "OctoswapV2",
+      "display_name": "Octoswap V2",
+      "family": "octoswap",
+      "logo": "monad/amms/octoswap.jpeg"
+    },
+    {
+      "amm_name": "OctoswapV3",
+      "display_name": "Octoswap V3",
+      "family": "octoswap",
+      "logo": "monad/amms/octoswap.jpeg"
+    },
+    {
+      "amm_name": "PancakeSwapV2",
+      "display_name": "PancakeSwap V2",
+      "family": "pancakeswap",
+      "logo": "monad/amms/pancakeswap.jpeg"
+    },
+    {
+      "amm_name": "PancakeSwapV3",
+      "display_name": "PancakeSwap V3",
+      "family": "pancakeswap",
+      "logo": "monad/amms/pancakeswap.jpeg"
+    },
+    {
+      "amm_name": "PinotFinanceV2",
+      "display_name": "PinotFinance V2",
+      "family": "pinotfinance",
+      "logo": "monad/amms/pinotfinance.png"
+    },
+    {
+      "amm_name": "PinotFinanceV3",
+      "display_name": "PinotFinance V3",
+      "family": "pinotfinance",
+      "logo": "monad/amms/pinotfinance.png"
+    },
+    {
+      "amm_name": "PurpswapV2",
+      "display_name": "Purpswap V2",
+      "family": "purpswap",
+      "logo": "monad/amms/purpswap.png"
+    },
+    {
+      "amm_name": "SwyrlV2",
+      "display_name": "Swyrl V2",
+      "family": "swyrl",
+      "logo": "monad/amms/swyrl.png"
+    },
+    {
+      "amm_name": "SwyrlV3",
+      "display_name": "Swyrl V3",
+      "family": "swyrl",
+      "logo": "monad/amms/swyrl.png"
+    },
+    {
+      "amm_name": "UniswapV2",
+      "display_name": "Uniswap V2",
+      "family": "uniswap",
+      "logo": "monad/amms/uniswap.jpeg"
+    },
+    {
+      "amm_name": "UniswapV3",
+      "display_name": "Uniswap V3",
+      "family": "uniswap",
+      "logo": "monad/amms/uniswap.jpeg"
+    },
+    {
+      "amm_name": "UniswapV4",
+      "display_name": "Uniswap V4",
+      "family": "uniswap",
+      "logo": "monad/amms/uniswap.jpeg"
+    },
+    {
+      "amm_name": "CapricornCL",
+      "display_name": "Capricorn CL",
+      "family": "capricorn",
+      "logo": "monad/amms/capricorn.png"
+    },
+    {
+      "amm_name": "AtlantisAlgebra",
+      "display_name": "Atlantis Algebra",
+      "family": "atlantis",
+      "logo": "monad/amms/atlantis.png"
+    },
+    {
+      "amm_name": "LfjV1",
+      "display_name": "Lfj V1",
+      "family": "lfj",
+      "logo": "monad/amms/lfj.png"
+    },
+    {
+      "amm_name": "dyorSwap",
+      "display_name": "Dyor Swap",
+      "family": "dyorswap",
+      "logo": "monad/amms/dyorswap.jpg"
+    },
+    {
+      "amm_name": "mondayTradeV3",
+      "display_name": "Monday V3",
+      "family": "mondaytrade",
+      "logo": "monad/amms/mondaytrade.jpg"
+    },
+    {
+      "amm_name": "zkSwapV2",
+      "display_name": "ZKSwap V2",
+      "family": "zkswap",
+      "logo": "monad/amms/zkswap.png"
+    },
+    {
+      "amm_name": "zkSwapV3",
+      "display_name": "ZKSwap V3",
+      "family": "zkswap",
+      "logo": "monad/amms/zkswap.png"
+    },
+    {
+      "amm_name": "Nabla Finance",
+      "display_name": "Nabla",
+      "family": "nabla",
+      "logo": "monad/amms/nabla.jpg"
+    }
+  ],
+  "starknet": [
+    {
+      "amm_name": "MySwap",
+      "display_name": "Myswap",
+      "family": "myswap",
+      "logo": "starknet/amms/myswap.webp"
+    },
+    {
+      "amm_name": "JediSwap",
+      "display_name": "JediSwap V2",
+      "family": "jediswap",
+      "logo": "starknet/amms/jediswap.webp"
+    },
+    {
+      "amm_name": "10kSwap",
+      "display_name": "10kSwap",
+      "family": "10kswap",
+      "logo": "starknet/amms/10kswap.png"
+    },
+    {
+      "amm_name": "SithSwapV2",
+      "display_name": "SithSwap V2",
+      "family": "sithswap",
+      "logo": "starknet/amms/sithswap.png"
+    },
+    {
+      "amm_name": "Ekubo",
+      "display_name": "Ekubo",
+      "family": "ekubo",
+      "logo": "starknet/amms/ekubo.webp"
+    },
+    {
+      "amm_name": "MyswapCL",
+      "display_name": "MySwap CL",
+      "family": "myswap",
+      "logo": "starknet/amms/myswap.webp"
+    },
+    {
+      "amm_name": "StarkDefiV2",
+      "display_name": "StarkDefi V2",
+      "family": "starkdefi",
+      "logo": "starknet/amms/starkdefi.webp"
+    },
+    {
+      "amm_name": "JediSwapCL",
+      "display_name": "JediSwap CL",
+      "family": "jediswap",
+      "logo": "starknet/amms/jediswap.webp"
+    },
+    {
+      "amm_name": "NostraV2",
+      "display_name": "Nostra V2",
+      "family": "nostra",
+      "logo": "starknet/amms/nostra.png"
+    },
+    {
+      "amm_name": "Haiko",
+      "display_name": "Haiko",
+      "family": "haiko",
+      "logo": "starknet/amms/haiko.png"
+    },
+    {
+      "amm_name": "LayerAkira",
+      "display_name": "LayerAkira",
+      "family": "layerakira",
+      "logo": "starknet/amms/layerakira.webp"
+    },
+    {
+      "amm_name": "EkuboLimitOrder",
+      "display_name": "Ekubo Limit Order",
+      "family": "ekubo",
+      "logo": "starknet/amms/ekubo.webp"
+    },
+    {
+      "amm_name": "SithSwapStable",
+      "display_name": "SithSwap Stable",
+      "family": "sithswap",
+      "logo": "starknet/amms/sithswap.png"
+    },
+    {
+      "amm_name": "StarkDefiStable",
+      "display_name": "StarkDefi Stable",
+      "family": "starkdefi",
+      "logo": "starknet/amms/starkdefi.webp"
+    },
+    {
+      "amm_name": "NostraStable",
+      "display_name": "Nostra Stable",
+      "family": "nostra",
+      "logo": "starknet/amms/nostra.png"
+    },
+    {
+      "amm_name": "EkuboTWAMM",
+      "display_name": "Ekubo TWAMM",
+      "family": "ekubo",
+      "logo": "starknet/amms/ekubo.webp"
+    },
+    {
+      "amm_name": "Circle",
+      "display_name": "Circle",
+      "family": "circle",
+      "logo": "starknet/amms/circle.png"
+    },
+    {
+      "amm_name": "EkuboOracle",
+      "display_name": "Ekubo Oracle",
+      "family": "ekubo",
+      "logo": "starknet/amms/ekubo.webp"
+    }
+  ],
+  "citrea": [
+    {
+      "amm_name": "satsumaAlgebra",
+      "display_name": "Satsuma",
+      "family": "satsuma",
+      "logo": "citrea/amms/satsuma.jpg"
+    },
+    {
+      "amm_name": "juiceSwap",
+      "display_name": "JuiceSwap",
+      "family": "juiceswap",
+      "logo": "citrea/amms/juiceswap.png"
+    },
+    {
+      "amm_name": "juiceSwapVault",
+      "display_name": "JuiceSwap Vault",
+      "family": "juiceswap",
+      "logo": "citrea/amms/juiceswap.png"
+    },
+    {
+      "amm_name": "juiceSwapStableCoinBridge",
+      "display_name": "JuiceSwap Stablecoin Bridge",
+      "family": "juiceswap",
+      "logo": "citrea/amms/juiceswap.png"
+    },
+    {
+      "amm_name": "juiceSwapV2",
+      "display_name": "JuiceSwap V2",
+      "family": "juiceswap",
+      "logo": "citrea/amms/juiceswap.png"
+    }
+  ]
+}
