@@ -882,37 +882,5 @@
       "family": "ekubo",
       "logo": "starknet/amms/ekubo.webp"
     }
-  ],
-  "citrea": [
-    {
-      "amm_name": "satsumaAlgebra",
-      "display_name": "Satsuma",
-      "family": "satsuma",
-      "logo": "citrea/amms/satsuma.jpg"
-    },
-    {
-      "amm_name": "juiceSwap",
-      "display_name": "JuiceSwap",
-      "family": "juiceswap",
-      "logo": "citrea/amms/juiceswap.png"
-    },
-    {
-      "amm_name": "juiceSwapVault",
-      "display_name": "JuiceSwap Vault",
-      "family": "juiceswap",
-      "logo": "citrea/amms/juiceswap.png"
-    },
-    {
-      "amm_name": "juiceSwapStableCoinBridge",
-      "display_name": "JuiceSwap Stablecoin Bridge",
-      "family": "juiceswap",
-      "logo": "citrea/amms/juiceswap.png"
-    },
-    {
-      "amm_name": "juiceSwapV2",
-      "display_name": "JuiceSwap V2",
-      "family": "juiceswap",
-      "logo": "citrea/amms/juiceswap.png"
-    }
   ]
 }
